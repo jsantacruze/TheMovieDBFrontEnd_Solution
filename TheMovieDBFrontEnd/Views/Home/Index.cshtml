@@ -1,0 +1,27 @@
+﻿@model List<TheMovieDBFrontEnd.Models.Movies.Movie>
+@{
+    ViewData["Title"] = "Now Playing Movies";
+}
+<h1>Películas en taquilla</h1>
+
+<div class="row">
+    @foreach(var movie in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <a href="/Home/Detail/@movie.id">
+            <div class="card" style="height: 400px;">
+                <div class="card-header">
+                    @movie.title
+                </div>
+                <img src="@movie.backdropPath" alt="@movie.title" class="card-img-top" style="max-height: 500px; object-fit: cover;">
+                <div class="card-body">
+                    @{
+                        var description = movie.overview.Length > 100 ? movie.overview.Substring(0, 100) + "..." : movie.overview;
+                    }
+                    <p class="card-text">@description</p>
+                </div>
+            </div>
+            </a>
+        </div>
+    }
+</div>

@@ -1,0 +1,55 @@
+﻿@model TheMovieDBFrontEnd.Models.Movies.Movie
+@{
+    ViewData["Title"] = "Detail - " + Model.title;
+}
+
+<h2>@Model.title</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Model.posterPath" alt="@Model.title" class="img-fluid">
+    </div>
+    <div class="col-md-8">
+        <table class="table">
+            <tr>
+                <th>Title:</th>
+                <td>@Model.title</td>
+            </tr>
+            <tr>
+                <th>Overview:</th>
+                <td>@Model.overview</td>
+            </tr>
+            <tr>
+                <th>Release Date:</th>
+                <td>@Model.releaseDate.ToString()</td>
+            </tr>
+            <tr>
+                <th>Description:</th>
+                <td>@Model.overview</td>
+            </tr>
+            <tr>
+                <th>Original Language:</th>
+                <td>@Model.originalLanguage</td>
+            </tr>
+            <tr>
+                <th>Vote Average:</th>
+                <td>@Model.voteAverage</td>
+            </tr>
+            <tr>
+                <th>Géneros:</th>
+                <td>
+                    @foreach (var gender in Model.genreIds)
+                    {
+                        <span class="btn btn-light">@gender</span>
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+<div>
+    <a href="@Url.Action("Index")" class="btn btn-default">Retornar</a>
+</div>

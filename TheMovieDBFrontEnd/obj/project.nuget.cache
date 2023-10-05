@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ciHDJTx9bQP9A1iftNH2X3+IbdrHYGPBiH4deACWYnsnsbIUsfjF/hByU5D1ek1pJceh8iQCsFfny3ZBKAEz5Q==",
+  "success": true,
+  "projectFilePath": "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\TheMovieDBFrontEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jsant\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jsant\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\jsant\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\jsant\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

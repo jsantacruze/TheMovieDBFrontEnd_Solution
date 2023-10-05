@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\TheMovieDBFrontEnd.csproj": {}
+  },
+  "projects": {
+    "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\TheMovieDBFrontEnd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\TheMovieDBFrontEnd.csproj",
+        "projectName": "TheMovieDBFrontEnd",
+        "projectPath": "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\TheMovieDBFrontEnd.csproj",
+        "packagesPath": "C:\\Users\\jsant\\.nuget\\packages\\",
+        "outputPath": "D:\\UNIVERSIDAD\\PROGRAMACION WEB\\PARCTICAS\\01-TheMovieDBFrontEnd\\TheMovieDBFrontEnd_Solution\\TheMovieDBFrontEnd\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "D:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

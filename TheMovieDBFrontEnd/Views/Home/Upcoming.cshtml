@@ -1,0 +1,25 @@
+﻿@model List<TheMovieDBFrontEnd.Models.Movies.Movie>
+@{
+    ViewData["Title"] = "Upcoming Movies";
+}
+<h1>Proximamente</h1>
+
+<div class="row">
+    @foreach (var movie in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card" style="height: 400px;">
+                <div class="card-header">
+                    @movie.title
+                </div>
+                <img src="@movie.backdropPath" alt="@movie.title" class="card-img-top" style="max-height: 500px; object-fit: cover;">
+                <div class="card-body">
+                    @{
+                        var description = movie.overview.Length > 100 ? movie.overview.Substring(0, 100) + "..." : movie.overview;
+                    }
+                    <p class="card-text">@description</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
